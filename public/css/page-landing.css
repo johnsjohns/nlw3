@@ -43,8 +43,8 @@ main h1{
     align-items: center;
     justify-content: center;
     margin:auto;
-    transition: background 200ms
-    animation-delay:250ms;
+    transition: background 200ms;
+    animation-delay: 250ms;
 }
 
 .visit a:hover {

@@ -29,6 +29,11 @@ aside footer{
     line-height: 1.5;
 }
 
+#maid{
+    height: 100%;
+    width: 100%;
+}
+
 a.create-orphanage{
     position: absolute;
     right: 4rem;
@@ -47,3 +52,4 @@ a.create-orphanage{
 a.create-orphanage:hover{
     background: #17D6EB;
 }
+

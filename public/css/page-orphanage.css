@@ -15,14 +15,11 @@ aside.sidebar{
 
 }
 
-.with-sidebar{
-    padding-left: 110px;
-}
-
 aside.sidebar footer button{
     width: 48px;
     height: 48px;
     background: #12AFCB;
+    border: none;
     border-radius: 1.6rem;
     cursor: pointer;
 
@@ -37,11 +34,19 @@ aside.sidebar footer button:hover {
     background: #17D6EB;
 }
 
+.with-sidebar{
+    padding-left: 110px;
+}
+
+main{
+    flex:1;
+}
+
 /* Detail */
 
 .orphanage-details{
     width: 70rem;
-    margin: 6.4 rem auto;
+    margin: 6.4rem auto;
     background: white;
     border: 1px solid #D3E2E5;
     border-radius: 2rem;
@@ -198,7 +203,7 @@ aside.sidebar footer button:hover {
     align-items: center;
     justify-content: center;
 
-    transition: background-color 0.2s;
+    transition: background-co   lor 0.2s;
 }
 
 .primary-button:hover {
@@ -206,6 +211,6 @@ aside.sidebar footer button:hover {
 }
 
 .primary-button img{
-    margin-right: 1.6rem;
+    margin: 1.6rem;
 }
 

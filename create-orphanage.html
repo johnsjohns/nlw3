@@ -18,7 +18,9 @@
     <link rel="stylesheet" href="./public/css/main.css" />
     <link rel="stylesheet" href="./public/css/animations.css" />
     <link rel="stylesheet" href="./public/css/sidebar.css"/>
-    <link rel="stylesheet" href="./public/css/page-create-orphanage.css" />
+    <link rel="stylesheet" href="./public/css/map.css"/>
+    <link rel="stylesheet" href="./public/css/page-create-orphanage.css"/>
+    <link rel="stylesheet" href="./public/css/form.css"/>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
 </head>
 
@@ -40,10 +42,31 @@
                    <legend>Dados</legend>
                    <div class="map-container">
                        <div id="mapid"></div>
+                       <footer>
+                           <a href="#" id="select-point">Clique no mapa para adicionar a localização</a>
+                       </footer>
                    </div>
                    <div class="input-block">
-                       <label for="name"></label>
+                       <label for="name">Nome</label>
                        <input id="name" name="name">
+                   </div>
+                   <div class="input-block">
+                        <label for="about">Sobre <span>Máximno 300 caracteres</span></label>
+                        <textarea id="about" name="about"></textarea>
+                   </div>
+                   <div class="input-block">
+                        <label for="whatsapp">Número de whatsapp</label>
+                        <input id="whatsapp" name="whatsapp">
+                   </div>
+                   <div class="input-block images">
+                        <label for="images">Foto</label>
+                        <div class="images-upload" id="images">
+                            <input name="images" placeholder="Cole o link da foto aqui">
+                        </div>
+                        <button type="button">
+                            <img src="./public/images/add.svg" alt="Nova Imagen">
+                        </button>
+                        
                    </div>
                </fieldset>
                <fieldset>
